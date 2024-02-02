@@ -1,0 +1,46 @@
+#	<how to>  
+
+==============================================
+
+#path = where your file located
+
+==============================================
+
+#python maya 2018-2020
+
+import sys
+#                          Path example      
+#               ---------------------------------
+sys.path.append("D:\Render_Python\Ploy\Render")
+#               ---------------------------------
+
+import render_ploychompoo
+
+reload(render_ploychompoo)
+
+#run script
+render_ploychompoo.main()
+
+==============================================
+
+#python maya 2021-2024
+
+import sys
+#                          Path example      
+#               ---------------------------------
+sys.path.append("D:\Render_Python\Ploy\Render")
+#               ---------------------------------
+
+import render_ploychompoo
+
+importlib.reload(render_ploychompoo)
+
+#run script
+render_ploychompoo.main()
+
+==============================================
+
+
+How to Python PDF = https://drive.google.com/file/d/133iei1vemyV0PvOWgIId_ALVm2QzaikB/view?usp=sharing
+
+==============================================
